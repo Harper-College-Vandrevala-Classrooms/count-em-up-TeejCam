@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.csc.TestGroceryCounter" tests="13" skipped="0" failures="0" errors="0" timestamp="2024-09-14T23:16:07" hostname="Melissas-MacBook-Pro.local" time="0.019">
+  <properties/>
+  <testcase name="itReturnsNineCents()" classname="com.csc.TestGroceryCounter" time="0.011"/>
+  <testcase name="itReturnsZeroDollarsIfNoEntriesHaveBeenMade()" classname="com.csc.TestGroceryCounter" time="0.0"/>
+  <testcase name="itIncrementsByOneCentOneHundredTimes()" classname="com.csc.TestGroceryCounter" time="0.0"/>
+  <testcase name="itReturnsElevenCents()" classname="com.csc.TestGroceryCounter" time="0.001"/>
+  <testcase name="itIncrementsByOneDollar()" classname="com.csc.TestGroceryCounter" time="0.0"/>
+  <testcase name="itReturnsTwoCents()" classname="com.csc.TestGroceryCounter" time="0.0"/>
+  <testcase name="itIncrementsByOneDollarNinetyNineTimes()" classname="com.csc.TestGroceryCounter" time="0.001"/>
+  <testcase name="itRetunsOneCent()" classname="com.csc.TestGroceryCounter" time="0.0"/>
+  <testcase name="itIncrementsByTenDollarsOneTime()" classname="com.csc.TestGroceryCounter" time="0.0"/>
+  <testcase name="itIncrementsByTenCents()" classname="com.csc.TestGroceryCounter" time="0.001"/>
+  <testcase name="itReturnsTenCents()" classname="com.csc.TestGroceryCounter" time="0.0"/>
+  <testcase name="itIncrementsByOneDollarTenTimes()" classname="com.csc.TestGroceryCounter" time="0.0"/>
+  <testcase name="itIncrementsByTenCentsTenTimes()" classname="com.csc.TestGroceryCounter" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
