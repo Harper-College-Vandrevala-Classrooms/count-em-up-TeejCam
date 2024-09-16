@@ -105,4 +105,29 @@ public class TestGroceryCounter {
     counter.increment_tens();
     assertEquals("$10.00", counter.total());
   }
+
+  @Test
+  void itIncrementsByTenDollarsTenTimes() {
+    for (int i=0; i<10; i++){
+      counter.increment_tens();
+    }
+    assertEquals("$90.00", counter.total());
+  }
+  @Test
+  void itIncrementsByTenDollarsNineTimes()
+  {
+    for (int i=0; i<9; i++){
+      counter.increment_tens();
+    }
+    assertEquals("$90.00", counter.total());
+  }
+
+  @Test
+  void incremenentsByTenDollarsTenTimesAndOneDollarTenTimes(){
+    for (int i=0; i<10; i++){
+      counter.increment_tens();
+      counter.increment_ones();
+    }
+    assertEquals("$99.00", counter.total());
+  }
 }
